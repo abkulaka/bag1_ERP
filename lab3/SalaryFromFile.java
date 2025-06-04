@@ -16,7 +16,7 @@ public class SalaryFromFile {
             return;
         }
 
-        // Хэрэглэгчээс файл сонгуулах
+        // Файл сонгох
         System.out.println("songo:");
         for (int i = 0; i < files.length; i++) {
             System.out.println((i + 1) + ". " + files[i].getName());
@@ -24,7 +24,7 @@ public class SalaryFromFile {
 
         System.out.print("it oruul: ");
         int choice = scanner.nextInt();
-        scanner.nextLine(); // buffer цэвэрлэнэ
+        scanner.nextLine();
 
         if (choice < 1 || choice > files.length) {
             System.out.println("errr.");
@@ -33,7 +33,6 @@ public class SalaryFromFile {
 
         File selectedFile = files[choice - 1];
 
-        // Мэдээллийг уншина
         String fullName = "", position = "", startDateStr = "";
         double baseSalary = 0;
 
@@ -57,7 +56,7 @@ public class SalaryFromFile {
 
         LocalDate hireDate = LocalDate.parse(startDateStr);
 
-        // Ажилласан мэдээллийг хэрэглэгчээс авна
+        // Ажилласан мэдээлэл
         System.out.print("sart ajilsan utur: ");
         int workedDays = scanner.nextInt();
 
@@ -96,8 +95,9 @@ public class SalaryFromFile {
                                             double companyFee, double penalty,
                                             int workDaysPerMonth, int hoursPerDay, double overtimeBonusRate) {
 
-        final double SOCIAL_INSURANCE_RATE = 0.10;
-        final double HEALTH_INSURANCE_RATE = 0.05;
+        // Шимтгэлийн хувь
+        final double SOCIAL_INSURANCE_RATE = 0.10; // Нийгмийн даатгал
+        final double HEALTH_INSURANCE_RATE = 0.05; // Эрүүл мэндийн даатгал
 
         double dailySalary = baseSalary / workDaysPerMonth;
         double hourlySalary = dailySalary / hoursPerDay;
@@ -107,12 +107,20 @@ public class SalaryFromFile {
         double absentDeduction = absentDays * dailySalary;
         double overtimeBonus = overtimeHours * hourlySalary * overtimeBonusRate;
 
+        // Нийгмийн болон эрүүл мэндийн даатгалын шимтгэл
         double socialInsurance = baseSalary * SOCIAL_INSURANCE_RATE;
         double healthInsurance = baseSalary * HEALTH_INSURANCE_RATE;
 
-        double netSalary = regularSalary - lateDeduction - absentDeduction
-                - socialInsurance - healthInsurance - companyFee - penalty + overtimeBonus;
+        // Нийт цалин
+        double netSalary = regularSalary
+                - lateDeduction
+                - absentDeduction
+                - socialInsurance
+                - healthInsurance
+                - companyFee
+                - penalty
+                + overtimeBonus;
 
-        return Math.max(netSalary, 0);
+        return Math.max(netSalary, 0); // Сөрөг цалин үүсэхээс сэргийлэх
     }
 }
