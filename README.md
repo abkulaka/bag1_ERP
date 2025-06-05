@@ -38,3 +38,12 @@ UML diagram
 ![UML diagram](https://github.com/user-attachments/assets/e6503604-2700-4eb1-8d82-6ec51dc18055)
 
 
+
+Нэмэлт: Классын бүрдэл төлөвлөлт (UML ба OOP дагуу)
+Класс	Зорилго	OOP зарчим
+Employee	Ажилтны мэдээлэл хадгалах	Encapsulation
+Attendance	Ирцийн бүртгэл	Encapsulation
+Insurance	Шимтгэлийн хувь хадгалах	Abstraction
+SalaryCalculator	Цалинг тооцох	Abstraction, Polymorphism
+Person (санал)	Ажилтны нийтлэг өгөгдөл	Inheritance
+
