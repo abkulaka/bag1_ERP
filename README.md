@@ -102,5 +102,5 @@
 - Компанийн шимтгэл болон торгууль
 
 
-UML diagram
+#UML diagram
 ![UML diagram](https://github.com/user-attachments/assets/dd667935-f7f2-4d32-82e5-3d3302b908ff)
