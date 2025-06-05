@@ -32,6 +32,8 @@ SalaryFromFile.java энэхүү класс нь Employer.java -д хадгал�
 • Илүү цагийн нэмэгдэл (1.5x)
 • Компанийн шимтгэл болон торгууль
 
+UML diagram
+
 
 ![UML diagram](https://github.com/user-attachments/assets/e6503604-2700-4eb1-8d82-6ec51dc18055)
 
