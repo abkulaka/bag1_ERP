@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.lab5.PayrollSystemTest" time="0.338" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="23"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\test-classes;D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mygaa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\mygaa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\mygaa\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\mygaa\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Ulaanbaatar"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="23"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-23\bin"/>
+    <property name="sun.java.command" value="C:\Users\mygaa\AppData\Local\Temp\surefire9847751573456978995\surefirebooter-20250610160454677_3.jar C:\Users\mygaa\AppData\Local\Temp\surefire9847751573456978995 2025-06-10T16-04-54_580-jvmRun1 surefire-20250610160454677_1tmp surefire_0-20250610160454677_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\test-classes;D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\mygaa\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\mygaa\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\mygaa\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\mygaa\.m2\repository\org\apache\logging\log4j\log4j-core\2.20.0\log4j-core-2.20.0.jar;C:\Users\mygaa\.m2\repository\org\apache\logging\log4j\log4j-api\2.20.0\log4j-api-2.20.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mygaa"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-01-21"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-23"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mygaa\AppData\Local\Temp\surefire9847751573456978995\surefirebooter-20250610160454677_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="23.0.2+7-58"/>
+    <property name="user.name" value="mygaa"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\mygaa\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\mygaa\AppData\Local\Temp\"/>
+    <property name="java.version" value="23.0.2"/>
+    <property name="user.dir" value="D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-23\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.8\libnvvp;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\NVIDIA Corporation\Nsight Compute 2025.1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Users\mygaa\AppData\Local\Programs\Python\Python311;C:\Users\mygaa\AppData\Local\Programs\Python\Python311\Scripts;C:\Program Files\dotnet\;C:\Program Files\Tesseract-OCR;C:\apktool;C:\Program Files\PuTTY\;C:\Program Files\nodejs\;C:\apache-maven-3.9.9\bin;C:\apache-maven-3.9.9\bin;C:\Program Files (x86)\GnuWin32\bin;C:\gradle-8.13\bin;C:\Users\mygaa\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\mygaa\AppData\Local\Programs\Python\Python312\;C:\Users\mygaa\AppData\Local\Microsoft\WindowsApps;C:\Users\mygaa\AppData\Local\Programs\Python\Python311;C:\Users\mygaa\AppData\Local\Programs\Python\Python311\Scripts;C:\Users\mygaa\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mygaa\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="23.0.2+7-58"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="67.0"/>
+  </properties>
+  <testcase name="testAddProductWithNegativeQuantity" classname="com.lab5.PayrollSystemTest" time="0.327">
+    <system-out><![CDATA[DEBUG StatusConsoleListener Apache Log4j Core 2.20 initializing configuration XmlConfiguration[location=D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml]
+DEBUG StatusConsoleListener PluginManager 'Core' found 130 plugins
+DEBUG StatusConsoleListener PluginManager 'Level' found 0 plugins
+DEBUG StatusConsoleListener PluginManager 'Lookup' found 16 plugins
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+DEBUG StatusConsoleListener PluginManager 'TypeConverter' found 26 plugins
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n", PatternSelector=null, Configuration(D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener PluginManager 'Converter' found 45 plugins
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.ConsoleAppender].
+DEBUG StatusConsoleListener ConsoleAppender$Builder(target="SYSTEM_OUT", follow="null", direct="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n), name="Console", Configuration(D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml), Filter=null, ={})
+DEBUG StatusConsoleListener Starting OutputStreamManager SYSTEM_OUT.false.false
+DEBUG StatusConsoleListener Building Plugin[name=layout, class=org.apache.logging.log4j.core.layout.PatternLayout].
+DEBUG StatusConsoleListener PatternLayout$Builder(pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n", PatternSelector=null, Configuration(D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml), Replace=null, charset="null", alwaysWriteExceptions="null", disableAnsi="null", noConsoleNoAnsi="null", header="null", footer="null")
+DEBUG StatusConsoleListener Building Plugin[name=appender, class=org.apache.logging.log4j.core.appender.FileAppender].
+DEBUG StatusConsoleListener FileAppender$Builder(fileName="logs/inventory.log", append="true", locking="null", advertise="null", advertiseUri="null", createOnDemand="null", filePermissions="null", fileOwner="null", fileGroup="null", bufferedIo="null", bufferSize="null", immediateFlush="null", ignoreExceptions="null", PatternLayout(%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n), name="FileLogger", Configuration(D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml), Filter=null, ={})
+DEBUG StatusConsoleListener Starting FileManager logs/inventory.log
+DEBUG StatusConsoleListener Building Plugin[name=appenders, class=org.apache.logging.log4j.core.config.AppendersPlugin].
+DEBUG StatusConsoleListener createAppenders(={Console, FileLogger})
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="Console", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=AppenderRef, class=org.apache.logging.log4j.core.config.AppenderRef].
+DEBUG StatusConsoleListener createAppenderRef(ref="FileLogger", level="null", Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=root, class=org.apache.logging.log4j.core.config.LoggerConfig$RootLogger].
+DEBUG StatusConsoleListener LoggerConfig$RootLogger$Builder(additivity="null", level="INFO", levelAndRefs="null", includeLocation="null", ={Console, FileLogger}, ={}, Configuration(D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml), Filter=null)
+DEBUG StatusConsoleListener Building Plugin[name=loggers, class=org.apache.logging.log4j.core.config.LoggersPlugin].
+DEBUG StatusConsoleListener createLoggers(={root})
+DEBUG StatusConsoleListener Configuration XmlConfiguration[location=D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml] initialized
+DEBUG StatusConsoleListener Starting configuration XmlConfiguration[location=D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml]
+DEBUG StatusConsoleListener Started configuration XmlConfiguration[location=D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml] OK.
+DEBUG StatusConsoleListener Shutting down OutputStreamManager SYSTEM_OUT.false.false-1
+DEBUG StatusConsoleListener OutputStream closed
+DEBUG StatusConsoleListener Shut down OutputStreamManager SYSTEM_OUT.false.false-1, all resources released: true
+DEBUG StatusConsoleListener Appender DefaultConsole-1 stopped with status true
+DEBUG StatusConsoleListener Stopped org.apache.logging.log4j.core.config.DefaultConfiguration@57bc27f5 OK
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e,component=StatusLogger
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e,component=ContextSelector
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e,component=Loggers,name=
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e,component=Appenders,name=Console
+DEBUG StatusConsoleListener Registering MBean org.apache.logging.log4j2:type=70dea4e,component=Appenders,name=FileLogger
+DEBUG StatusConsoleListener org.apache.logging.log4j.core.util.SystemClock supports precise timestamps.
+DEBUG StatusConsoleListener Reconfiguration complete for context[name=70dea4e] at URI D:\shaalt eh huwi\hicheel\40bot\bag1_ERP\lab_7\target\classes\log4j2.xml (org.apache.logging.log4j.core.LoggerContext@3bd418e4) with optional ClassLoader: null
+DEBUG StatusConsoleListener Shutdown hook enabled. Registering a new one.
+DEBUG StatusConsoleListener LoggerContext[name=70dea4e, org.apache.logging.log4j.core.LoggerContext@3bd418e4] started OK.
+16:04:55.327 [main] ERROR com.lab5.PayrollSystem - Алдаа: Сөрөг тоо оруулсан байна: -1
+]]></system-out>
+  </testcase>
+</testsuite>
