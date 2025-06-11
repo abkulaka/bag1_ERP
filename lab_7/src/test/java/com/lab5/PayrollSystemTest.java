@@ -24,5 +24,12 @@ public void testCalculateSalaryAndAttendance() {
     // Attendance test
     assertTrue(attendance.isPresent(employee));
 }
+    @Test
+public void testCalculateNetSalary_validData() {
+    SalaryCalculator sc = new SalaryCalculator();
+    double net = sc.calculateNetSalary(1000000, 5, 1, 2, 200000);
+    assertEquals(1150000, net, 0.01); 
+}
+
 
 }
