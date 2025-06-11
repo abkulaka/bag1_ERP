@@ -37,4 +37,17 @@ public class Employee {
     public Contract getContract() {
         return contract;
     }
+    private static final Logger logger = Logger.getLogger("employee.log");
+
+public void addEmployee(Scanner scanner) {
+    try {
+       
+        FileWriter writer = new FileWriter("emp_" + id + ".txt");
+       
+        logger.info("Added employee with ID: " + id);
+    } catch (IOException e) {
+        logger.severe("Error adding employee: " + e.getMessage());
+    }
+}
+
 }
